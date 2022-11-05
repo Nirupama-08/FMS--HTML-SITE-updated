@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>PAYMENT</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        body{
+            padding-top: 0px;
+            height:100vh;
+            width: 100vw;
+            /* justify-content: center;
+            align-items: center;
+            display: flex;   */
+            background-image:url(https://media.cntraveler.com/photos/607f3c487774091e06dd5d21/master/pass/Breeze%20Airways_166655077_303814634409055_8038496796049085212_n.jpeg); 
+            background-size: 100%,100%;  
+            background-repeat: none;   
+        }
+        
+       
+        
+        input[type=text],
+        input[type=password] 
+       {
+            width: 90%;
+            height: 35px;
+            padding: 12px 20px;
+            margin: 4px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        
+        button {
+            background-color:#099ded ;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+        }
+      
+        
+        button:hover {
+            opacity: 0.8;
+        }
+        
+    
+        
+        .container {
+            padding: 10px;
+            margin-top: 20px;
+            width:400px;
+            height:430px;
+            color: black;
+            background-color: white;
+            opacity: 0.8;
+        }
+       
+        
+        .navbar{
+            opacity: 0.8;
+    
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-sm bg-info">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Booking.html">Back</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+     </header>
+  <main>
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  	<form action="/action_page.php">
+
+		<div class="container">
+            <h2 style="color:rgb(10, 15, 19)"><center>PAYMENT OPTION</center></h2>
+           <h5>Cerdit /Debit Card</h5>   
+            <center><table>
+                    <tr>
+                        <td>
+                            <label for="CardNumber"> Card Number:</label> 
+                        </td>
+                        <td>
+                            <input type="text" id="CardNumber" name="" placeholder="Card Number"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Expdate">Exp date:</label> 
+                        </td>
+                        <td>
+                            <input type="text" id="Expdate" name="Expdate" placeholder="Exp date"/>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cvv">cvv:</label> 
+                        </td>
+                        <td>
+                            <input type="password" id="cvv" name="cvv" placeholder="cvv"/>
+                        </td> 
+                    </tr>
+            </table>
+            <button >PAY</button>
+            <h5 style="color:black"><CENTER>OR</CENTER></h5>
+        <button >UPI</button>
+            
+            
+        </center>
+        </div>
+
+	
+	</form>
+</body>
+
+</html>
